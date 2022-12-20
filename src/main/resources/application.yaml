@@ -1,0 +1,23 @@
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Accounting
+    username: postgres
+    password: Mochegov
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    database: postgresql
+upload:
+  path: C:/Java/Data/accounting
+bank:
+  name: ОАО КБ Стройкредит
+  inn: 7744003511
+  ogrn: 1037711012525
+  address: 109544, Москва, ул. Большая Андроньевская, д.17
+  requisites:
+    bik: 044525718
